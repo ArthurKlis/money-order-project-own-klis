@@ -2,8 +2,8 @@
 
 <p align="center">
 <img src="code_screen.jpg"  width="216" height="384" />
-<img src="amounts_screen" width="216" height="384" />
-<img src="result_screen" width="216" height="384" />
+<img src="amounts_screen.jpg" width="216" height="384" />
+<img src="result_screen.jpg" width="216" height="384" />
 </p>
 
 ## Program, który napisałem na własne potrzeby, aby jeszcze szybciej wykonywać swoją pracę maksymalnie wykorzystując fakt zadaniowego czasu pracy.
