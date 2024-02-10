@@ -1,4 +1,4 @@
-# version 1.x
+# version 2.0
 # 2024-02-10
 i=1
 listaJednosci=[]
