@@ -40,5 +40,8 @@ for czescDziesietna in listaCzesciDziesietnych:
  sumaCzesciDziesietnych+=czescDziesietna
 calosciZdziesietnych=sumaCzesciDziesietnych//100
 sumaCzesciDziesietnych=sumaCzesciDziesietnych-calosciZdziesietnych*100
+sumaCzesciDziesietnych=str(sumaCzesciDziesietnych)
+if len(sumaCzesciDziesietnych)==1:
+ sumaCzesciDziesietnych='0'+sumaCzesciDziesietnych
 sumaJednosci=sumaJednosci+calosciZdziesietnych
-print('suma kwot:', str(sumaJednosci)+','+str(sumaCzesciDziesietnych))
+print('suma kwot:', str(sumaJednosci)+','+sumaCzesciDziesietnych)
