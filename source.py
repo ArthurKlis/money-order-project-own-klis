@@ -1,13 +1,15 @@
 # version 1.x
-# 2024-02-05
+# 2024-02-10
 i=1
 listaJednosci=[]
 listaCzesciDziesietnych=[]
 while i:
  liczba=input(': ')
- if liczba != "":  
+ if liczba != "" and liczba != "exit": 
   listaJednosci.append(int(liczba.split(",")[0]))
   listaCzesciDziesietnych.append(int(liczba.split(",")[1]))
+ elif liczba == "exit":
+  break
  else:
   break
 nominalyJednosci = {'100': 0, '50': 0, '20': 0, '10': 0, '5': 0, '2': 0, '1': 0}
