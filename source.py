@@ -3,6 +3,8 @@
 i=1
 listaJednosci=[]
 listaCzesciDziesietnych=[]
+sumaJednosci=0
+sumaCzesciDziesietnych=0
 while i:
  liczba=input(': ')
  if liczba != "" and liczba != "exit": 
@@ -32,3 +34,11 @@ for k, v in nominalyCzesciDziesietnej.items():
  else:
   k='0.'+k
  print(k,v)
+for jednosc in listaJednosci:
+ sumaJednosci+=jednosc
+for czescDziesietna in listaCzesciDziesietnych:
+ sumaCzesciDziesietnych+=czescDziesietna
+calosciZdziesietnych=sumaCzesciDziesietnych//100
+sumaCzesciDziesietnych=sumaCzesciDziesietnych-calosciZdziesietnych*100
+sumaJednosci=sumaJednosci+calosciZdziesietnych
+print('suma kwot:', str(sumaJednosci)+','+str(sumaCzesciDziesietnych))
